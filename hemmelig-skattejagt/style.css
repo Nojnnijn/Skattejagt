@@ -38,3 +38,26 @@
     width: clamp(18px, 4vw, 25px);
   }
 } 
+
+/* Genstart skattejagten */
+
+.restart-button {
+  display: block;
+  margin: 25px auto 0;
+  padding: 12px 24px;
+
+  background: #ffffff;
+  color: #a32d66;
+  border: 2px solid #e9a8c7;
+  border-radius: 12px;
+
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+
+  transition: background 0.2s;
+}
+
+.restart-button:hover {
+  background: #ffe3ef;
+}
